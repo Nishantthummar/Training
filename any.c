@@ -2,4 +2,4 @@
 int any(char,char);
 void main()
 {
-	
+	///herhehrhehrh
