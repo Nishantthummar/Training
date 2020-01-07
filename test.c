@@ -10,5 +10,5 @@ void main()
 	for(i=0;i<7;i++)
 	{
 		putchar(a[i]);
-	}
+	}//here is change
 }
