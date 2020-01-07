@@ -10,6 +10,6 @@ void main()
 		sum=a+b;
 		a=b;
 		b=sum;
-		printf(" %d",b);//here is the change
+		printf(" %d",b);
 	}
 }
