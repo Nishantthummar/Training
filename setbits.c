@@ -18,22 +18,28 @@ void main()
 	scanf("%d",&no);
 	printf("enter the position");
 	scanf("%d",&p);
-	printf("\nposition is %d",p);
-	printf("new is\n");
+	//printf("\nposition is %d",p);
+	printf("new series is\n");
 	j=0;
 	//printf("sum is%d",p+no);	
-	for(i=p;i<p+no;i++)
+	if(p+no<=10)
 	{
-		printf(" \ni is%d , j is %d",i,j);		
-		a1[j]=a2[i];
-		j++;
-		//printf("\n%d",a1[j]);
+		for(i=p;i<p+no;i++)
+		{
+			//printf(" \ni is%d , j is %d",i,j);		
+			a1[j]=a2[i];
+			j++;
+			//printf("\n%d",a1[j]);
+		}
+		for(i=0;i<no;i++)
+		{
+			printf("\n%d",a1[i]);
+		}
 	}
-	for(i=0;i<no;i++)
+	else
 	{
-		printf("\n%d",a1[i]);
+		printf("\nInvalid you enter");
 	}
-
 }
 
 	
