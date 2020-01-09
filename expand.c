@@ -2,9 +2,9 @@
 void expand();
 void main()
 {
-	char s1[4], s2[30];
+	char s1[6], s2[30];
 	int i, c;
-	for (i=0; i<4 && (c=getchar())!=EOF; i++)
+	for (i=0; i<6 && (c=getchar())!=EOF; i++)
 	{
 		s1[i]=c;
 	}
@@ -16,7 +16,7 @@ void main()
 void expand(char s1[], char s2[])
 {
 	int i=0, min, max, j;
-	for (i=0; i<4; i++) {
+	for (i=0; i<6; i++) {
 		printf("\n%c", s1[i]);
 		if (s1[i] == '-') {
 			min = s1[i-1];
